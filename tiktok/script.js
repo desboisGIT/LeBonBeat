@@ -70,13 +70,5 @@ document.addEventListener("DOMContentLoaded", function() {
         });
     }
 
-    document.addEventListener('keydown', function(event) {
-        if (event.key === 'ArrowUp' || event.key === 'ArrowLeft') {
-            currentVideoIndex = (currentVideoIndex > 0) ? currentVideoIndex - 1 : videos.length - 1;
-            playVideo(currentVideoIndex);
-        } else if (event.key === 'ArrowDown' || event.key === 'ArrowRight') {
-            currentVideoIndex = (currentVideoIndex < videos.length - 1) ? currentVideoIndex + 1 : 0;
-            playVideo(currentVideoIndex);
-        }
     });
 });
