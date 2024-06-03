@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /* Hide scrollbars */
+}
+
+#start-button {
+    display: block;
+    margin: 50px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#videos-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden; /* Hide scrollbars */
+}
+
+.video {
+    position: absolute;
+    width: auto;
+    height: 100%;
+    top: 0;
+    left: 720px;
+    transition: transform 0.5s ease; /* Smooth transition effect */
+}
+
+.video video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.metadata {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: white;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.metadata h2 {
+    margin: 0 0 10px 0;
+}
+
+.metadata p {
+    margin: 5px 0;
+}

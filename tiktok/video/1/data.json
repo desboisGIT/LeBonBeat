@@ -1,0 +1,28 @@
+{
+    "titre": "Mon Voyage à Paris",
+    "auteur": "John Doe",
+    "date_publication": "2024-06-03T12:00:00",
+    "duree": "0:30",
+    "format": "vertical",
+    "url_video": "1.mp4",
+    "hashtags": ["voyage", "Paris", "aventure"],
+    "mentions": ["@amis", "@voyageurs"],
+    "description": "Découvrez mes aventures à Paris ! 🗼 #voyage #Paris #aventure",
+    "vues": 10000,
+    "likes": 500,
+    "partages": 200,
+    "commentaires": [
+      {
+        "auteur": "Jane Smith",
+        "contenu": "J'adore cette vidéo ! Paris est magnifique 😍",
+        "date": "2024-06-04T10:30:00"
+      },
+      {
+        "auteur": "Mike Johnson",
+        "contenu": "Superbe vidéo ! Ça me donne envie de voyager 🌍",
+        "date": "2024-06-04T11:45:00"
+      }
+    ],
+    "tags_produits": ["appareil_photo", "valise", "guide_de_voyage"]
+  }
+  
